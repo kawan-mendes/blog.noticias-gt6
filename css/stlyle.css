@@ -22,8 +22,69 @@
   
 html{
     font-family: "poppins", sans-serif;
+
 }
 body{
     background-color:var(--cor-02);
     color: var(--cor-5);
+
+}
+header{
+  
+    background-color: var(--cor-5);
+    color: var(--cor-01);
+
+    position: fixed;
+    width: 100%;
+    /* z-index: 100%;:display: */
+    /* top: 0%; */
+    padding:1.2rem 5rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header span{
+    
+    color: var(--cor-principal);
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    border: solid 1px yellow; /* TESTE */
+    padding: 0.5rem 1rem ;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: var(--cor-principal);
+    
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+footer{
+
+background-color: var(--cor-5);
+color:var(--cor-02);
+padding: 1rem 5rem;
+text-align: center;
+position: fixed;
+bottom: 0;
+opacity: var(--cor-02);
+
 }
