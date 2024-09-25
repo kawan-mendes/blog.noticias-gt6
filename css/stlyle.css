@@ -85,7 +85,7 @@ main{
 }
 
 article{
-    background-color: var(--cor-01);
+    background-color:var(--cor-01);
     height: 16rem;
     margin: 1rem 5rem ;
      padding: 1rem;
