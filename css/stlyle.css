@@ -71,8 +71,12 @@ nav a:hover{
     
 }
 
+    .menu-responsivo{
 
+        display: none;
 
+    }
+    
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
@@ -154,7 +158,53 @@ text-align: center;
 position: fixed;
 bottom: 0;
 opacity: var(--cor-01);
-width: 100%;
+
+
 
 }
- 
+
+/* ----- Media Queries ----- */
+ /* XS Extra Small - Celula retrato (portatil) */
+
+ @media (max-width: 576px) {
+     
+    header{
+        background-color: rgb(226, 43, 131);
+        padding: 1rem 2rem;
+    }
+    
+    .menu-responsivo{
+    
+        display: block;
+     }
+      
+     .menu{
+        display: none;
+     }
+     article{
+        
+        height: auto;
+        margin:1rem;
+        flex-direction: column;
+        /* overflow: hidden; */
+        display: flex;
+        
+    
+    }
+
+    .foto{
+        overflow: hidden;
+        margin-right:0;
+    
+    }
+    
+    .foto img{
+      width:100%;
+    }
+
+    /* teste */
+    /* header{ */
+        /* background-color: rgb(226, 43, 131); */
+        /* padding: 1rem 2rem; */
+    /* } */
+ }
