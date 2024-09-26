@@ -219,6 +219,7 @@ width: 100%;
  @media (min-width: 576px) {
 
      header{
+        padding: 1rem 5rem;
         background-color: #0055ff;
      }
      
@@ -273,3 +274,65 @@ width: 100%;
 
 
     }
+
+     /* Notebook*/
+
+     @media (min-width: 992px) {
+        
+        header{
+            background-color: rgb(34, 255, 0);
+            padding: 1rem 3rem;
+        
+        }
+
+
+    
+        .menu-responsivo {
+            display: none;
+         }
+    
+       
+          
+         .menu{
+            display: block;
+         }
+         article{
+            
+            height: 16rem;
+            margin:1rem 5rem;
+            grid-template-columns: 16rem auto;
+            /* overflow: hidden; */
+            display: grid;
+            
+            
+        
+        }
+    
+        .foto{
+              overflow: hidden;
+            margin-right:1rem;
+            
+        
+        }
+        
+        .foto img{
+          width:100%;
+        }
+    
+        .texto{
+          
+            overflow: hidden;
+          
+        }
+
+        
+    }
+
+     /* Desktop*/
+
+     @media (min-width: 1200px) {
+
+        header{
+            background-color:var(--cor-5);
+        }
+     }
