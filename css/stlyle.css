@@ -76,7 +76,9 @@ nav a:hover{
         display: none;
 
     }
-    
+ .menu-responsivo i{
+        font-size: 3rem;
+    }
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
@@ -141,13 +143,7 @@ article:hover{
   
 }
 
-
-
-
-
   /* teste */
-
-
 
 footer{
 
@@ -158,6 +154,7 @@ text-align: center;
 position: fixed;
 bottom: 0;
 opacity: var(--cor-01);
+width: 100%;
 
 
 
@@ -173,10 +170,11 @@ opacity: var(--cor-01);
         padding: 1rem 2rem;
     }
     
-    .menu-responsivo{
-    
+    .menu-responsivo {
         display: block;
      }
+
+   
       
      .menu{
         display: none;
@@ -193,7 +191,7 @@ opacity: var(--cor-01);
     }
 
     .foto{
-        overflow: hidden;
+      
         margin-right:0;
     
     }
@@ -202,9 +200,76 @@ opacity: var(--cor-01);
       width:100%;
     }
 
+    .texto{
+        max-height: 10rem;
+        overflow: hidden;
+      
+        
+    }
     /* teste */
     /* header{ */
         /* background-color: rgb(226, 43, 131); */
         /* padding: 1rem 2rem; */
     /* } */
  }
+
+ 
+ /* SM Extra Small - celular paisagem(landscape) */
+
+ @media (min-width: 576px) {
+
+     header{
+        background-color: #0055ff;
+     }
+     
+     .menu-responsivo {
+        display: block;
+     }
+
+   
+   .menu {
+    display: none;
+    }
+
+    article{
+        
+        height: auto;
+        margin:1rem;
+        flex-direction: column;
+        /* overflow: hidden; */
+        display: flex;
+        
+    
+    }
+
+    .foto{
+      
+        margin-right:0;
+    
+    }
+    
+    .foto img{
+      width:100%;
+    }
+
+    .texto{
+        max-height: 10rem;
+        overflow: hidden;
+    }
+} 
+ /* Tablet*/
+    @media (min-width: 768px) {
+        
+        header{
+            background-color: darkorange;
+            padding: 1rem 3rem;
+        }
+
+
+        article{
+            margin: 3rem;
+            }
+
+
+
+    }
