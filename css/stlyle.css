@@ -70,11 +70,8 @@ nav a:hover{
     color: var(--cor-principal);
     
 }
-
-    .menu-responsivo{
-
+ .menu-responsivo{
         display: none;
-
     }
  .menu-responsivo i{
         font-size: 3rem;
@@ -94,10 +91,10 @@ article{
     background-color:var(--cor-01);
     height: 16rem;
     margin: 1rem 5rem ;
-     padding: 1rem;
+    padding: 1rem;
     border-radius:0.6rem ;
     transition: 0,5s;
-    border: solid 1px rgb(0, 0, 0); /* TESTE */
+    /* border: solid 1px rgb(0, 0, 0); TESTE */
     /* overflow: hidden; */
     display: grid;
     grid-template-columns: 16rem auto;
@@ -113,7 +110,8 @@ article:hover{
    cursor: pointer;
    transform: scale(1.02);
    /*          x y desfoque  espesura  cor    */
-   box-shadow: 0 0 0.5rem    0.1rem    var(--cor-03);}
+   box-shadow: 0 0 0.5rem    0.1rem    var(--cor-03);
+}
 
 .conteudo{
       display: flex;
@@ -131,8 +129,6 @@ article:hover{
 .foto img{
   height: 100%;
 }
-
-
 
 .leia-mais {
    font-weight: 700;
@@ -169,13 +165,9 @@ width: 100%;
         background-color: rgb(226, 43, 131);
         padding: 1rem 2rem;
     }
-    
     .menu-responsivo {
         display: block;
      }
-
-   
-      
      .menu{
         display: none;
      }
@@ -186,20 +178,14 @@ width: 100%;
         flex-direction: column;
         /* overflow: hidden; */
         display: flex;
-        
-    
     }
 
     .foto{
-      
         margin-right:0;
-    
     }
-    
     .foto img{
       width:100%;
     }
-
     .texto{
         max-height: 10rem;
         overflow: hidden;
@@ -222,37 +208,25 @@ width: 100%;
         padding: 1rem 5rem;
         background-color: #0055ff;
      }
-     
      .menu-responsivo {
         display: block;
      }
-
-   
    .menu {
     display: none;
     }
-
-    article{
-        
+    article{ 
         height: auto;
         margin:1rem;
         flex-direction: column;
         /* overflow: hidden; */
         display: flex;
-        
-    
     }
-
-    .foto{
-      
+    .foto{ 
         margin-right:0;
-    
     }
-    
     .foto img{
       width:100%;
     }
-
     .texto{
         max-height: 10rem;
         overflow: hidden;
@@ -265,14 +239,9 @@ width: 100%;
             background-color: darkorange;
             padding: 1rem 3rem;
         }
-
-
         article{
             margin: 3rem;
             }
-
-
-
     }
 
      /* Notebook*/
@@ -284,54 +253,34 @@ width: 100%;
             padding: 1rem 3rem;
         
         }
-
-
-    
         .menu-responsivo {
             display: none;
          }
-    
-       
-          
          .menu{
             display: block;
          }
          article{
-            
             height: 16rem;
             margin:1rem 5rem;
             grid-template-columns: 16rem auto;
             /* overflow: hidden; */
             display: grid;
-            
-            
-        
         }
-    
         .foto{
               overflow: hidden;
             margin-right:1rem;
-            
-        
         }
-        
         .foto img{
           width:100%;
         }
-    
         .texto{
-          
-            overflow: hidden;
-          
+            overflow: hidden; 
         }
-
-        
     }
 
      /* Desktop*/
 
      @media (min-width: 1200px) {
-
         header{
             background-color:var(--cor-5);
         }
